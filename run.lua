@@ -9,8 +9,8 @@ local script3 = coroutine.create(function()
 
 end)
 
-coroutine.resume(Thread1)
+coroutine.resume(script1)
 task.wait(3)
-coroutine.resume(Thread1)
+coroutine.resume(script2)
 task.wait(3)
-coroutine.resume(Thread1)
+coroutine.resume(script3)
